@@ -10,13 +10,13 @@
 		<false/>
 	</dict>
 	<key>UUID</key>
-	<integer>4</integer>
+	<integer>3</integer>
 	<key>centeredOrigin</key>
 	<false/>
 	<key>currentResolution</key>
 	<integer>0</integer>
 	<key>currentSequenceId</key>
-	<integer>0</integer>
+	<integer>1</integer>
 	<key>docDimensionsType</key>
 	<integer>1</integer>
 	<key>fileType</key>
@@ -42,68 +42,6 @@
 			<dict>
 				<key>UUID</key>
 				<integer>1</integer>
-				<key>baseClass</key>
-				<string>CCBFile</string>
-				<key>children</key>
-				<array/>
-				<key>customClass</key>
-				<string></string>
-				<key>displayName</key>
-				<string>CCBFile</string>
-				<key>memberVarAssignmentName</key>
-				<string></string>
-				<key>memberVarAssignmentType</key>
-				<integer>1</integer>
-				<key>properties</key>
-				<array>
-					<dict>
-						<key>name</key>
-						<string>name</string>
-						<key>type</key>
-						<string>StringSimple</string>
-						<key>value</key>
-						<string></string>
-					</dict>
-					<dict>
-						<key>name</key>
-						<string>position</string>
-						<key>type</key>
-						<string>Position</string>
-						<key>value</key>
-						<array>
-							<real>-123.00003051757812</real>
-							<real>10.000015258789062</real>
-							<integer>0</integer>
-							<integer>0</integer>
-							<integer>0</integer>
-						</array>
-					</dict>
-					<dict>
-						<key>name</key>
-						<string>scale</string>
-						<key>type</key>
-						<string>ScaleLock</string>
-						<key>value</key>
-						<array>
-							<real>1</real>
-							<real>1</real>
-							<false/>
-							<integer>0</integer>
-						</array>
-					</dict>
-					<dict>
-						<key>name</key>
-						<string>ccbFile</string>
-						<key>type</key>
-						<string>CCBFile</string>
-						<key>value</key>
-						<string>Bear.ccb</string>
-					</dict>
-				</array>
-			</dict>
-			<dict>
-				<key>UUID</key>
-				<integer>2</integer>
 				<key>baseClass</key>
 				<string>CCSprite</string>
 				<key>children</key>
@@ -133,7 +71,7 @@
 						<string>Position</string>
 						<key>value</key>
 						<array>
-							<real>-88</real>
+							<real>0.0</real>
 							<real>0.0</real>
 							<integer>0</integer>
 							<integer>0</integer>
@@ -211,10 +149,10 @@
 			</dict>
 			<dict>
 				<key>UUID</key>
-				<integer>3</integer>
+				<integer>2</integer>
 				<key>animatedProperties</key>
 				<dict>
-					<key>0</key>
+					<key>1</key>
 					<dict>
 						<key>rotation</key>
 						<dict>
@@ -302,8 +240,8 @@
 						<string>Position</string>
 						<key>value</key>
 						<array>
-							<real>-95</real>
-							<real>9</real>
+							<real>-5</real>
+							<real>10</real>
 							<integer>0</integer>
 							<integer>0</integer>
 							<integer>0</integer>
@@ -316,8 +254,8 @@
 						<string>Point</string>
 						<key>value</key>
 						<array>
-							<real>0.11600623279809952</real>
-							<real>0.78084385395050049</real>
+							<real>0.0</real>
+							<real>1</real>
 						</array>
 					</dict>
 					<dict>
@@ -335,13 +273,13 @@
 					</dict>
 					<dict>
 						<key>baseValue</key>
-						<real>4.9413275718688965</real>
+						<real>0.0</real>
 						<key>name</key>
 						<string>rotation</string>
 						<key>type</key>
 						<string>Degrees</string>
 						<key>value</key>
-						<real>1.3333339691162109</real>
+						<real>-7.9999980926513672</real>
 					</dict>
 					<dict>
 						<key>name</key>
@@ -508,19 +446,19 @@
 				<integer>12</integer>
 			</dict>
 			<key>chainedSequenceId</key>
-			<integer>1</integer>
+			<integer>-1</integer>
 			<key>length</key>
-			<real>2</real>
+			<real>10</real>
 			<key>name</key>
 			<string>Default Timeline</string>
 			<key>offset</key>
 			<real>0.0</real>
 			<key>position</key>
-			<real>1.5333333015441895</real>
+			<real>0.0</real>
 			<key>resolution</key>
 			<real>30</real>
 			<key>scale</key>
-			<real>255.125</real>
+			<real>128</real>
 			<key>sequenceId</key>
 			<integer>0</integer>
 			<key>soundChannel</key>
@@ -544,15 +482,15 @@
 				<integer>12</integer>
 			</dict>
 			<key>chainedSequenceId</key>
-			<integer>-1</integer>
+			<integer>1</integer>
 			<key>length</key>
-			<real>10</real>
+			<real>2</real>
 			<key>name</key>
-			<string>armswipe</string>
+			<string>ArmAnimate</string>
 			<key>offset</key>
 			<real>0.0</real>
 			<key>position</key>
-			<real>0.0</real>
+			<real>1.7999999523162842</real>
 			<key>resolution</key>
 			<real>30</real>
 			<key>scale</key>
