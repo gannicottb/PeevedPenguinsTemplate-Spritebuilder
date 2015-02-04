@@ -62,7 +62,7 @@ static const float MIN_SPEED = 20.f;
     self.userInteractionEnabled = TRUE;
     
     // visualize physics bodies & joints
-    _physicsNode.debugDraw = TRUE;
+    //_physicsNode.debugDraw = TRUE;
     
     _physicsNode.collisionDelegate = self;
     
